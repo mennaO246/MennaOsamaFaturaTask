@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MennaOsama Task regression suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression Test(failed)">
+    <classes>
+      <class name="tests.GetADemoTest">
+        <methods>
+          <include name="generateAllure"/>
+          <include name="takeScreenshot"/>
+          <include name="stopdriver"/>
+          <include name="GetADemo"/>
+          <include name="delAllureRes"/>
+          <include name="startdriver"/>
+        </methods>
+      </class> <!-- tests.GetADemoTest -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [MennaOsama Task regression suite] -->
